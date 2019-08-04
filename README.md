@@ -3,6 +3,8 @@
 Data acquired from a 2D Laser in ROS are expressed in polar coordinates, relative to the position of the laser itself.
 We want to convert laser data into cartesian coordinates (3D), relative to a fixed frame in the world.
 
+**IMPORTANT**: there might be ROS packages that perform the trasformation required by this assignment. You are supposed to do you own implementation to show that you understand the math and you are able to implement it. DO NOT use or copy 3rd party code.
+
 To test your implementation, use the included file **laser.bag**.
 
 You need to create a ROS node to perform the convertion.
