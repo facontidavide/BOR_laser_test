@@ -14,7 +14,7 @@ You need to create a ROS node to perform the convertion.
 - Subscribe to a topic of type [sensor_msgs::LaserScan](http://docs.ros.org/melodic/api/sensor_msgs/html/msg/LaserScan.html), 
    to obtain the laser data.
 
-- Use [TF2](http://wiki.ros.org/tf2/Tutorials) to provide the tansform between the fixed frame **/odom_combined** and the laser (**base_laser_link**).
+- Use [TF2](http://wiki.ros.org/tf2/Tutorials) to get the tansform between the fixed frame **/odom_combined** and the laser (**base_laser_link**).
 
 - Transform the raw data of the LaserScan message into a pointcloud with 
   type [pcl::PointCloud< pcl::PointXYZI >](http://pointclouds.org/documentation/tutorials/basic_structures.php#basic-structures).
